@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 // 이미지는 원본 코드에서 import하는 것으로 가정
-import Image1 from '../images/1.JPG';
-import Image2 from '../images/2.JPG';
-import Image3 from '../images/3.JPG';
-import Image4 from '../images/4.JPG';
-import Image5 from '../images/5.JPG';
-import Image6 from '../images/6.JPG';
-import Image7 from '../images/7.JPG';
-import Image8 from '../images/8.JPG';
+import Image1 from '../images/1.jpg';
+import Image2 from '../images/2.jpg';
+import Image3 from '../images/3.jpg';
+import Image4 from '../images/4.jpg';
+import Image5 from '../images/5.jpg';
+import Image6 from '../images/6.jpg';
+import Image7 from '../images/7.jpg';
+import Image8 from '../images/8.jpg';
 
 const WeddingInvitation = () => {
   const [showGroomAccount, setShowGroomAccount] = useState(false);
@@ -103,7 +103,7 @@ const WeddingInvitation = () => {
     <div className='min-h-screen' style={{ backgroundColor: '#eeeeee' }}>
       <div className='max-w-md mx-auto' style={{ backgroundColor: '#eeeeee' }}>
         {/* Header Section - Style 2 */}
-        <header className='relative h-screen flex items-center justify-center'>
+        <header className='relative h-screen flex items-center justify-center overflow-hidden'>
           {/* 배경 그라데이션 */}
           <div
             className='absolute inset-0'
