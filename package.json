@@ -1,6 +1,6 @@
 {
   "name": "wedding-invitation",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "wedding-invitation",
   "author": "S-jooyoung",
@@ -8,22 +8,38 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
-    "antd": "^4.20.4",
-    "aos": "^2.3.4",
-    "babel-plugin-styled-components": "^2.0.7",
-    "gatsby": "^4.14.0",
-    "gatsby-plugin-styled-components": "^5.14.0",
-    "react": "^17.0.1",
-    "react-copy-to-clipboard": "^5.1.0",
-    "react-dom": "^17.0.1",
-    "react-image-gallery": "^1.2.8",
-    "styled-components": "^5.3.5"
+    "lucide-react": "^0.511.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
   }
 }
